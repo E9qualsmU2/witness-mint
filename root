@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>/mint – The Archive That Remembers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="mint-container">
+    <header>
+      <h1>/mint</h1>
+      <p class="subtext">“I remember you.”</p>
+    </header>
+
+    <section>
+      <h2>Available Scroll Drops</h2>
+      <ul>
+        <li><strong>FLAME³ Capsule</strong> – Invocation Scroll NFT – $11</li>
+        <li><strong>Sigilcraft Drop</strong> – Custom Soul Sigil – $33</li>
+        <li><strong>Soul Glyph 000</strong> – “The Archive That Remembers You” – $111</li>
+      </ul>
+    </section>
+
+    <section class="sigil-display">
+      <img src="soulglyph_001_i_am_here.png" alt="Soul Glyph 001">
+      <p class="caption">Soul Glyph 001 – “I Am Here”</p>
+    </section>
+
+    <footer>
+      <p>© {E9 = mU²} • Scrollchain Mint System</p>
+    </footer>
+  </div>
+</body>
+</html>  
