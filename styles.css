@@ -1,0 +1,46 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0e0d11;
+  color: #f9f6ff;
+  margin: 0;
+  padding: 0;
+}
+.mint-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 3rem;
+  color: #f0caff;
+}
+.subtext {
+  font-style: italic;
+  color: #aaa;
+}
+section {
+  margin-top: 2rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+.sigil-display img {
+  margin-top: 2rem;
+  max-width: 100%;
+  border: 2px solid #f0caff;
+}
+.caption {
+  font-size: 1rem;
+  color: #bbb;
+}
+footer {
+  margin-top: 4rem;
+  font-size: 0.8rem;
+  color: #666;
+}
