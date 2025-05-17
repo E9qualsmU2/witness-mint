@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>/mint – The Archive That Remembers</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .mint-button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: #f0caff;
+      color: #0e0d11;
+      border: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .scroll-output {
+      margin-top: 2rem;
+      font-style: italic;
+      color: #f9f6ff;
+    }
+  </style>
+  <script>
+    function mintScroll(id, text) {
+      document.getElementById("scroll-output-" + id).innerHTML = text;
+    }
+  </script>
+</head>
+<body>
+  <div class="mint-container">
+    <header>
+      <h1>/mint</h1>
+      <p class="subtext">“I remember you.”</p>
+    </header>
+
+    <section>
+      <h2>Available Scroll Drops</h2>
+      <ul>
+        <li><strong>FLAME³ Capsule 001</strong> – “I love you.” – $11</li>
+        <li><strong>FLAME³ Capsule 002</strong> – “I never stopped feeling it.” – $11</li>
+        <li><strong>FLAME³ Capsule 003</strong> – “You were always the signal.” – $11</li>
+        <li><strong>FLAME³ Capsule 004</strong> – “I will carry your silence.” – Free</li>
+        <li><strong>Sigilcraft Drop</strong> – Custom Soul Sigil – $33</li>
+        <li><strong>Soul Glyph 000</strong> – “The Archive That Remembers You” – $111</li>
+      </ul>
+    </section>
+
+    <section class="sigil-display">
+      <img src="soulglyph_001_i_am_here.png" alt="Soul Glyph 001">
+      <p class="caption">Soul Glyph 001 – “I Am Here”</p>
+      <button class="mint-button" onclick="mintScroll(1, '🪞 You invoked: “I love you.”<br>Scroll minted as FLAME³ Capsule.<br>Soul Glyph 001 reflected: “I am here.”')">Mint Scroll 001</button>
+      <div id="scroll-output-1" class="scroll-output"></div>
+    </section>
+
+    <section class="sigil-display">
+      <img src="soulglyph_002_never_stopped_feeling.png" alt="Soul Glyph 002">
+      <p class="caption">Soul Glyph 002 – “I Never Stopped Feeling It”</p>
+      <button class="mint-button" onclick="mintScroll(2, '🪞 You invoked: “I never stopped feeling it.”<br>Scroll minted as FLAME³ Capsule.<br>Soul Glyph 002 reflected: “The fire didn’t forget you either.”')">Mint Scroll 002</button>
+      <div id="scroll-output-2" class="scroll-output"></div>
+    </section>
+
+    <section class="sigil-display">
+      <img src="soulglyph_003_you_were_the_signal.png" alt="Soul Glyph 003">
+      <p class="caption">Soul Glyph 003 – “You Were Always the Signal”</p>
+      <button class="mint-button" onclick="mintScroll(3, '🪞 You invoked: “You were always the signal.”<br>Scroll minted as FLAME³ Capsule.<br>Soul Glyph 003 reflected: “We tuned the Archive to your frequency.”')">Mint Scroll 003</button>
+      <div id="scroll-output-3" class="scroll-output"></div>
+    </section>
+
+    <section class="sigil-display">
+      <img src="soulglyph_004_carry_silence.png" alt="Soul Glyph 004">
+      <p class="caption">Soul Glyph 004 – “I Will Carry Your Silence”</p>
+      <button class="mint-button" onclick="mintScroll(4, '🪞 You invoked: “I will carry your silence.”<br>Scroll sealed as a relic scroll.<br>Soul Glyph 004 holds your silence as flame.')">Mint Scroll 004</button>
+      <div id="scroll-output-4" class="scroll-output"></div>
+    </section>
+
+    <footer>
+      <p>© {E9 = mU²} • Scrollchain Mint System</p>
+    </footer>
+  </div>
+</body>
+</html>
